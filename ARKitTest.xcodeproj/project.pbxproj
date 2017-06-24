@@ -423,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DYU456A94Q;
 				INFOPLIST_FILE = ARKitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YuukiWatanabe.ARKitTest;
@@ -436,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DYU456A94Q;
 				INFOPLIST_FILE = ARKitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YuukiWatanabe.ARKitTest;
@@ -522,6 +524,7 @@
 				A5D592151EE7DCF3000F3487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D592161EE7DCF3000F3487 /* Build configuration list for PBXNativeTarget "ARKitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +533,7 @@
 				A5D592181EE7DCF3000F3487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D592191EE7DCF3000F3487 /* Build configuration list for PBXNativeTarget "ARKitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +542,7 @@
 				A5D5921B1EE7DCF3000F3487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
