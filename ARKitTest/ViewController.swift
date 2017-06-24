@@ -63,6 +63,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
 */
     
+    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
+        let plane = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
+        let planeNode = SCNNode(geometry: plane)
+        planeNode.position = SCNVector3Make(planeAnchor.center.x, 0, planeAnchor.center.z)
+        planeNode.transform = SCNMatrix4MakeRotation(-Float.pi / 2, 1, 0, 0)
+        node.addChildNode(planeNode)
+    }
+
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
         
